@@ -14,6 +14,7 @@ A Next.js application showcasing different interface designs including:
 - Step-by-step building of each interface
 - Keyboard controls for navigation
 - Responsive design
+- Automatic deployment with GitHub Actions and Vercel
 
 ## Technologies Used
 
