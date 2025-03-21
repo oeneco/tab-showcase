@@ -5,6 +5,13 @@ on:
     branches:
       - main
 
+# Add permissions section
+permissions:
+  contents: read
+  deployments: write
+  pull-requests: write
+  issues: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
