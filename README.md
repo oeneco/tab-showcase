@@ -2,7 +2,7 @@
 
 A Next.js application showcasing different interface designs including:
 
-- Spotify UI
+- Spotify UI (Fixed)
 - TikTok UI
 - Spreadsheet UI
 - 3D UI
