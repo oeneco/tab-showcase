@@ -45,6 +45,25 @@ A Next.js application showcasing different interface designs including:
 - **→**: Next view
 - **Space**: Play/Pause (Spotify view)
 
+## Deployment with Vercel
+
+This project is set up with GitHub Actions to automatically deploy to Vercel when changes are pushed to the main branch.
+
+### Setup Instructions
+
+1. Create a Vercel account and create a new project
+2. Link your GitHub repository to the Vercel project
+3. Get the required secrets:
+   - `VERCEL_TOKEN`: Create a token in Vercel account settings
+   - `VERCEL_ORG_ID`: Find in your Vercel project settings
+   - `VERCEL_PROJECT_ID`: Find in your Vercel project settings
+4. Add these secrets to your GitHub repository:
+   - Go to your GitHub repository
+   - Click Settings > Secrets and variables > Actions
+   - Add the three secrets mentioned above
+
+Once set up, every push to main will automatically deploy to Vercel.
+
 ## License
 
 MIT
